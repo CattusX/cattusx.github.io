@@ -1,0 +1,19 @@
+# Site settings
+title: Cattusx blog
+email: 
+domain: cattusx.github.io
+description: "Musings of a Computer Scientist."
+baseurl: ""
+url: "http://cattusx.github.io"
+twitter_username: karpathy
+github_username:  cattusx
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
