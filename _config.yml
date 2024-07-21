@@ -5,7 +5,6 @@ domain: cattusx.github.io
 description: "Musings of a Computer Scientist."
 baseurl: ""
 url: "http://cattusx.github.io"
-twitter_username: karpathy
 github_username:  cattusx
 
 # Build settings
