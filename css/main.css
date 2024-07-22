@@ -1,3 +1,31 @@
+/* Fonts */
+@font-face {
+  font-family: 'SourceSansSC-VF';
+  src: url('/fonts/SourceHanSansSC-VF.otf.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LXGW-WenKai';
+  src: url('/fonts/LXGWWenKai-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LXGW-WenKai';
+  src: url('/fonts/LXGWWenKai-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LXGW-WenKai';
+  src: url('/fonts/LXGWWenKai-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -9,14 +37,18 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, 'LXGW-WenKai', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: normal;
   background-color: #fdfdfd;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: Helvetica, Arial, 'SourceSansSC-VF', sans-serif;
+  font-size: 100%; 
+  font-weight: normal; 
+}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
