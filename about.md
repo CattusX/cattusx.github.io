@@ -5,4 +5,4 @@ permalink: /about/
 includelink: true
 ---
 
-<!-- See my [website](https://karpathy.ai/). -->
+Feel free to send <a href="mailto:A2227428294@163.com">email</a> to me if you have any question.
